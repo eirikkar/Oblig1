@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Message
+comment0.text=\r\n\ @author\ (Eirik\ Karlsen)\r\n\ @version\ (1.0)\r\n
+comment1.params=sender\ messageBody
+comment1.target=Message(Person,\ java.lang.String)
+comment1.text=\r\n\ Konstrukt\u00F8r\ for\ Message\ klassen\r\n
+comment2.params=
+comment2.target=java.lang.String\ getMessage()
+comment3.params=
+comment3.target=Person\ getSender()
+numComments=4
