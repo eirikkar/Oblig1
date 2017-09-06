@@ -1,25 +1,33 @@
 
 /**
  * @author (Eirik Karlsen)
- * @version (1.0)
+ * Class for the message and the sender of message.
  */
 public class Message
 {
-    // VARIABLER
+    // Fields
     public String messageBody;
     public Person sender;
     /**
-     * Konstruktør for Message klassen
+     * Constructor for Message class, takes sender and messageBody as paremeter
+     * @param The sender, and message
      */
     public Message(Person sender, String messageBody)
     {
         this.sender = sender;
         this.messageBody = messageBody;
     }
-    //GETTERS!
+    /**
+     * Getter for message
+     * @return message content
+     */
     public String getMessage () {
         return this.messageBody;
     }
+    /**
+     * Getter for sender
+     * @return sender of message
+     */
     public Person getSender () {
         return sender;
     }
